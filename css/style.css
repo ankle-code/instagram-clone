@@ -19,6 +19,7 @@ body,figure {
 
 .background {
 	background-color: var(--background);
+	height: 100%;
 }
 
 .header {
@@ -32,6 +33,7 @@ body,figure {
 
 .main {
 	margin: auto;
+	padding-bottom: 40px;
 	width: 100%;
 	max-width: 935px;
 }
@@ -182,10 +184,12 @@ body,figure {
 	padding: 5px 5px 5px 12px;
 }
 
-.nav--footer {
+.footer__box {
 	display: flex;
+	padding: 20px;
 	justify-content: space-around;
-	border: 0;
+	border-top: 1px solid var(--borderColor);
+	background-color: var(--background);
 }
 
 @media screen and (min-width: 640px) {
