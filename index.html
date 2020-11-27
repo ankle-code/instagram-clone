@@ -17,164 +17,173 @@
 </head>
 <body>
 	<!-- CABEÇALHO -->
-	<header>
+	<header class="header">
 		<a href="https://www.instagram.com/" class="instagram-logo">
-			<figure>
+			<figure class="header__image">
 				<img src="img/logo.png" alt="Instagram logo">
 			</figure>
 		</a>
 	</header>
 
-	<!-- CONTEÚDO DA PÁGINA -->
-	<main>
+	<div class="background">
 
-		<!-- CONTEÚDO SOBRE O USUÁRIO -->
-		<article class="profile-content">
-
-			<!-- FOTO DE PERFIL DO USUÁRIO -->
-			<section class="profile-photo">
-				<figure>
-					<img src="img/profile-photo.jpg" alt="Profile photo">
-				</figure>
-			</section>
-
-			<!-- DETALHES/INFORMAÇÕES DO USUÁRIO -->
-			<section class="profile-info">
-				<h1>kenzieacademybr</h1>
-
-				<!-- POSTS/SEGUIDORES/SEGUINDO -->
-				<div class="profile-data">
-					<p><span>122</span> posts</p>
-					<p><span>2,589</span> followers</p>
-					<p><span>227</span> following</p>
-				</div>
-
-				<h2>Kenzie Academy Brasil</h2>
-				<ul>
-					<li>
-						<p>Nós investimos em você. Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</p>
+		<main class="main">
+	
+			<!-- CONTEÚDO SOBRE O USUÁRIO -->
+			<article class="profile">
+	
+				<!-- FOTO DE PERFIL DO USUÁRIO -->
+				<section class="photo">
+					<figure>
+						<img class="photo__image" src="img/profile-photo.jpg" alt="Profile photo">
+					</figure>
+				</section>
+	
+				<!-- DETALHES/INFORMAÇÕES DO USUÁRIO -->
+				<section class="profile__info">
+					<h1 class="profile__name">kenzieacademybr</h1>
+	
+					<!-- POSTS/SEGUIDORES/SEGUINDO -->
+					<div class="profile__data">
+						<p class="profile__count"><span class="profile_count profile__count--number">122</span> posts</p>
+						<p class="profile__count"><span class="profile_count profile__count--number">2,589</span> followers</p>
+						<p class="profile__count"><span class="profile_count profile__count--number">227</span> following</p>
+					</div>
+	
+					<h2 class="profile__name profile__name--bold">Kenzie Academy Brasil</h2>
+					<ul class="list">
+						<li class="list__item">
+							<p class="list__text">Nós investimos em você. Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</p>
+						</li>
+						<li class="list__item">
+							<p class="list__text">Inscreva-se através do link.</p>
+						</li>
+						<li class="list__item">
+							<a class="list__link" href="https://linktr.ee/kenzieacademybr">linktr.ee/kenzieacademybr</a>
+						</li>
+					</ul>
+				</section>
+			</article>
+	
+			<!-- DESTAQUES DO USUÁRIO -->
+			<article>
+				<ul class="highlight">
+					<li class="highlight__item">
+						<figure>
+							<img class="highlight__image" src="img/highlight.jpg" alt="Highlight">
+							<figcaption>Open House</figcaption>
+						</figure>
 					</li>
-					<li>
-						<p>Inscreva-se através do link.</p>
-					</li>
-					<li>
-						<a href="https://linktr.ee/kenzieacademybr">linktr.ee/kenzieacademybr</a>
+					<li class="highlight__item">
+						<figure>
+							<img class="highlight__image" src="img/storie.png" alt="Highlight">
+							<figcaption>New</figcaption>
+						</figure>
 					</li>
 				</ul>
-			</section>
-		</article>
+			</article> 
+			<div class="wrap">
+				<!-- POSTS DO USUÁRIO -->
+				<article class="posts">
+		
+					<!-- MENU DE POSTS -->
+					<nav class="nav">
+						<a class="nav__item nav__item--selected" href="#"><i class="fas fa-th nav__icon nav__icon"></i>Posts</a>
+						<a class="nav__item" href="#"><i class="fas fa-tv nav__icon"></i>Igtv</a>
+						<a class="nav__item" href="#"><i class="far fa-user nav__icon"></i>Tagged</a>
+					</nav>
+		
+					<!-- LISTA DE POSTS -->
+					<ul class="post">
+		
+						<!-- POST -->
+						<li class="post__item">
+							<a href="#">
+								<figure>
+									<!-- class="post__image" <img src="img/post1.jpg" alt="Post"> -->
+								</figure>
+							</a>
+						</li>
+		
+						<!-- POST -->
+						<li class="post__item">
+							<a href="#">
+								<figure>
+									<img class="post__image" src="img/post2.jpg" alt="Post">
+								</figure>
+							</a>
+						</li>
+						
+						<!-- POST -->
+						<li class="post__item">
+							<a href="#">
+								<figure>
+									<img class="post__image" src="img/post3.jpg" alt="Post">
+								</figure>
+							</a>
+						</li class="post_item">
+						
+						<!-- POST -->
+						<li class="post__item">
+							<a href="#">
+								<figure>
+									<img class="post__image" src="img/post4.jpg" alt="Post"> 
+								</figure>
+							</a>
+						</li>
+						
+						<!-- POST -->
+						<li class="post__item">
+							<a href="#">
+								<figure>
+									 <img class="post__image" src="img/post5.jpg" alt="Post">
+								</figure>
+							</a>
+						</li>
+						
+						<!-- POST -->
+						<li class="post__item">
+							<a href="#">
+								<figure>
+									 <img class="post__image" src="img/post6.jpg" alt="Post"> 
+								</figure>
+							</a>
+						</li>
+					</ul>
+				</article>
+			</div>
+		</main>
+	</div>
 
-		<!-- DESTAQUES DO USUÁRIO -->
-		<article class="highlighted-stories">
-			<ul>
-				<li class="add-new-highlight">
-					<figure>
-						<img src="img/plus-sign.png" alt="Highlight">
-						<figcaption>New</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="img/highlight.jpg" alt="Highlight">
-						<figcaption>Open House</figcaption>
-					</figure>
-				</li>
-			</ul>
-		</article>
-
-		<!-- POSTS DO USUÁRIO -->
-		<article class="profile-posts">
-
-			<!-- MENU DE POSTS -->
-			<nav>
-				<a href="#">Posts</a>
-				<a href="#">Igtv</a>
-				<a href="#">Tagged</a>
-			</nav>
-
-			<!-- LISTA DE POSTS -->
-			<ul>
-
-				<!-- POST -->
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/post1.jpg" alt="Post">
-						</figure>
-					</a>
-				</li>
-
-				<!-- POST -->
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/post2.jpg" alt="Post">
-						</figure>
-					</a>
-				</li>
-				
-				<!-- POST -->
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/post3.jpg" alt="Post">
-						</figure>
-					</a>
-				</li>
-				
-				<!-- POST -->
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/post4.jpg" alt="Post">
-						</figure>
-					</a>
-				</li>
-				
-				<!-- POST -->
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/post5.jpg" alt="Post">
-						</figure>
-					</a>
-				</li>
-				
-				<!-- POST -->
-				<li>
-					<a href="#">
-						<figure>
-							<img src="img/post6.jpg" alt="Post">
-						</figure>
-					</a>
-				</li>
-			</ul>
-		</article>
-	</main>
+	<!-- CONTEÚDO DA PÁGINA -->
 
 	<!-- RODAPÉ -->
-	<footer>
+	<footer class="footer">
 
 		<!-- MENU RODAPÉ -->
-		<nav class="footer-nav">
-			<a href="#">About</a>
-			<a href="#">Help</a>
-			<a href="#">Press</a>
-			<a href="#">Api</a>
-			<a href="#">Jobs</a>
-			<a href="#">Privacy</a>
-			<a href="#">Terms</a>
-			<a href="#">Locations</a>
-			<a href="#">Top accounts</a>
-			<a href="#">Hashtags</a>
-			<a href="#">Language</a>
+		<nav class="nav nav-footer">
+			<ul class="list list--flex">
+				<li class="list__item" ><a class="list__link" href="#">About</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Help</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Press</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Api</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Jobs</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Privacy</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Terms</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Locations</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Top accounts</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Hashtags</a></li>
+				<li class="list__item" ><a class="list__link" href="#">Language</a></li>
+				<div class="list__item">
+					<p class="list__copy">&copy; 2020 instagram from facebook</p>
+				</div>
+			</ul>
+					
 		</nav>
 
 		<!-- COPYRIGHT -->
-		<div class="copyright">
-			<p>&copy; 2020 instagram from facebook</p>
-		</div>
 
-	</footer>
+	</footer> 
+	<script src="https://kit.fontawesome.com/1195e30363.js" crossorigin="anonymous"></script>
 </body>
 </html>
