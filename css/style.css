@@ -199,7 +199,7 @@ body,figure {
 .post__box {
 	width: 293px;
 	height: 293px;
-	margin: 5px 5px 5px 12px;
+	margin: 10px 5px 10px 12px;
 	box-sizing: content-box;
 }
 
@@ -210,7 +210,7 @@ body,figure {
 .footer__box {
 	display: flex;
 	padding: 10px;
-	justify-content: center;
+	flex-wrap: wrap;
 	border-top: 1px solid var(--borderColor);
 	background-color: var(--background);
 }
