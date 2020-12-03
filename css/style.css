@@ -150,8 +150,8 @@ body,figure {
 }
 
 .highlight__image {
-	width: 45px;
-	border-radius: 77px;
+	width: 50px;
+	border-radius: 50%;
 	margin-bottom: 10px;
 	border: 8px double	var(--radiusBorderLight);
 }
@@ -238,8 +238,8 @@ body,figure {
 	}
 
 	.highlight__image {
-		width: 80px;
-		border-radius: 77px;
+		width: 77px;
+		border-radius: 50%px;
 	}
 	
 }
